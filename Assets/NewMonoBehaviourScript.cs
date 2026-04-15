@@ -20,7 +20,6 @@ public class NewMonoBehaviourScript : MonoBehaviour
         {
             hp -= 1;
             Debug.Log("현재 HP: " + hp);
-            transform.position = trasform.Translate(0f,3f,0f);
             if (hp <= 0)
             {
                 isAlive = false;
